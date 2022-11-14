@@ -1,0 +1,26 @@
+.navbar{
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+  background-color: rgb(249, 153, 9);
+}
+.nav-menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 60px;
+  padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+li a{
+  font-family: Calibre, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
