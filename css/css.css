@@ -1,4 +1,4 @@
-#container{
+.container{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
 }
@@ -87,4 +87,27 @@ footer{
 	width: 90px;
 	padding-top:12px;
 	padding-right:10px;
+}
+
+
+
+
+
+/* pagina jasir*/
+main{
+  grid-column: 2/6;
+}
+.J1{
+  display: flex;
+  justify-content: center;
+}
+.J2{
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.J2 img{
+  border-radius: 20px;
+  height: auto;
+  width: 20%;
 }
