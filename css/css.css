@@ -3,6 +3,7 @@
 #container{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
+	min-height:100vh;
 }
 
 
@@ -177,6 +178,11 @@ footer{
 
 
 /* pagina jasir*/
+#containerjasir{
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	min-height:100vh;
+}
 main{
   grid-column: 2/6;
 }
@@ -211,4 +217,48 @@ main{
 
 #voetbal{
 	width: 500px;
+}
+
+/*home page*/
+
+#containermain{
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	min-height:100vh;
+}
+
+#mainpage_comment1{
+	grid-column:2/4;
+	
+}
+#mainpage_comment2{
+	grid-column:4/6;
+	
+}
+
+#mainimg1{
+	display:flex;
+	justify-content:flex-end;
+	grid-column:4/6;
+	
+}
+
+#main_img1{
+	height:100%;
+	width:100%;
+}
+
+#mainimg2{
+	display:flex;
+	grid-column:2/4;
+	
+}
+
+#main_img2{
+	height:80%;
+	width:80%;
+}
+
+#mainpage_complain1{
+	grid-column:3/5;
 }
